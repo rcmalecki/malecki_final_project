@@ -1,0 +1,108 @@
+* { 
+	box-sizing: border-box;
+}
+
+body {
+	background-color:#000;
+	line-height: 1.5em;
+	letter-spacing: .025em;
+	font-family: "cronos-pro-display", sans-serif;
+	font-size: 1.2em;
+	color:#fff;
+	margin-top: 0;
+	position: center;
+}
+
+h2 {
+	font-size: 1em;
+	line-height:0;
+}
+
+h1, h2, nav{
+	font-family: "jaf-lapture", serif;
+}
+
+a {
+    color: #fff;
+	padding: 20px;
+	text-decoration: none;
+}
+
+a:hover {
+    color: #fa4742;
+}
+
+#title {
+	font-size: 1.5em;
+	line-height:0;
+	color:#fa4742;
+}
+
+
+/*nav styles begin*/
+nav {
+	text-align: center;
+	font-size:1.5em;
+	background-color: black;
+	height: 80px;
+	margin: 10px;
+}
+
+nav a {
+	margin-top:0;
+	padding-top:0;
+	font-size:.8em;
+}
+/*nav styles end*/
+
+/*page styles begin*/
+.page {
+	width:1200px;
+	height:800px;
+	padding:20px 40px;
+	background-color:#fff;
+	color:#000;
+	border-radius:10px;
+	margin-right:auto;
+	margin-left:auto;
+	display: block;
+    overflow: auto;
+}
+
+.column1 {
+	width:540px;
+    float: left;
+}
+
+.column2 {
+	width:540px;
+    float: right;
+	margin-top:0;
+}
+
+#gorey {
+	margin-right:auto;
+	margin-left:auto;
+	margin-top:50px;
+}
+
+.callouts {
+	font-size: 1.5em;
+	line-height: 1.5em;
+	font-style: italic;
+	color: #8B0000;
+	margin-left: 5%;
+	margin-right: 5%;
+	width: 90%;
+}
+/*page styles end*/
+
+/*footer styles begin*/
+footer {
+	text-align: center;
+	font-size:.6em;
+	background-color: black;
+	margin:0;
+	padding: 0;
+}
+/*footer styles end*/
